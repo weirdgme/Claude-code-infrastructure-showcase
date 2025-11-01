@@ -120,11 +120,11 @@ skill-name/
 │   │   └── error-tracking/
 │   ├── Infrastructure (9):
 │   │   ├── platform-engineering/     (11 resource files)
-│   │   ├── devsecops/               (10 resource files)
-│   │   ├── sre/                     (10 resource files)
+│   │   ├── devsecops/               (11 resource files)
+│   │   ├── sre/                     (11 resource files)
 │   │   ├── release-engineering/     (10 resource files)
 │   │   ├── cloud-engineering/       (10 resource files)
-│   │   ├── systems-engineering/     (10 resource files)
+│   │   ├── systems-engineering/     (12 resource files)
 │   │   ├── network-engineering/     (10 resource files)
 │   │   ├── build-engineering/       (10 resource files)
 │   │   └── general-it-engineering/  (10 resource files)
@@ -182,11 +182,11 @@ dev/
 | Skill | Resources | Purpose | Best For |
 |-------|-----------|---------|----------|
 | [**platform-engineering**](.claude/skills/platform-engineering/) | 11 | IaC, Kubernetes, GitOps | Platform architecture |
-| [**devsecops**](.claude/skills/devsecops/) | 10 | Security, compliance | Security automation |
-| [**sre**](.claude/skills/sre/) | 10 | SLO/SLI, observability | Site reliability |
+| [**devsecops**](.claude/skills/devsecops/) | 11 | Security, compliance | Security automation |
+| [**sre**](.claude/skills/sre/) | 11 | SLO/SLI, observability | Site reliability |
 | [**release-engineering**](.claude/skills/release-engineering/) | 10 | CI/CD, deployments | Release pipelines |
 | [**cloud-engineering**](.claude/skills/cloud-engineering/) | 10 | AWS, Azure, GCP | Cloud architecture |
-| [**systems-engineering**](.claude/skills/systems-engineering/) | 10 | Linux, Ansible | Systems administration |
+| [**systems-engineering**](.claude/skills/systems-engineering/) | 12 | Linux/Windows, Ansible/PowerShell, performance tuning | Systems administration, automation |
 | [**network-engineering**](.claude/skills/network-engineering/) | 10 | Network design | Network architecture |
 | [**build-engineering**](.claude/skills/build-engineering/) | 10 | Build systems | Build optimization |
 | [**general-it-engineering**](.claude/skills/general-it-engineering/) | 10 | ITIL, ITSM | IT operations |
@@ -253,8 +253,8 @@ dev/
 | Skill | Resources | Coverage | Best For |
 |-------|-----------|----------|----------|
 | [**platform-engineering**](.claude/skills/platform-engineering/) | 11 | IaC, Kubernetes, GitOps, Service Mesh | Platform architecture, container orchestration |
-| [**devsecops**](.claude/skills/devsecops/) | 10 | Security scanning, secrets, compliance | Security automation, policy enforcement |
-| [**sre**](.claude/skills/sre/) | 10 | SLO/SLI, observability, incident response | Site reliability, monitoring, on-call |
+| [**devsecops**](.claude/skills/devsecops/) | 11 | Security scanning, secrets, compliance | Security automation, policy enforcement |
+| [**sre**](.claude/skills/sre/) | 11 | SLO/SLI, observability, incident response | Site reliability, monitoring, on-call |
 | [**release-engineering**](.claude/skills/release-engineering/) | 10 | CI/CD, deployment strategies, versioning | Release pipelines, progressive delivery |
 | [**cloud-engineering**](.claude/skills/cloud-engineering/) | 10 | AWS, Azure, GCP, multi-cloud | Cloud architecture, migration, optimization |
 | [**systems-engineering**](.claude/skills/systems-engineering/) | 12 | Linux/Windows, Ansible/PowerShell, performance tuning | Systems administration, automation |
